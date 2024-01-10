@@ -6,7 +6,7 @@ const signupRoutes = require('./routes/signup.js')
 const loginRoutes = require('./routes/login.js')
 const userRoutes = require('./routes/user.js')
 const adminRoutes = require('./routes/admin.js')
-// const imageRoutes = require('./routes/image.js')
+const imageRoutes = require('./routes/image.js')
 
 dotEnv.config()
 const app = express();
@@ -24,7 +24,7 @@ app.use("/api/signup", signupRoutes);
 app.use("/api/login", loginRoutes);
 app.use("/api/user", userRoutes);
 app.use("/api/admin", adminRoutes);
-// app.use("/api/image", imageRoutes);
+app.use("/api/image", imageRoutes);
 
 
 app.use((err, req, res, next) => {
