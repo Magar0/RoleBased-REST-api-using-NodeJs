@@ -3,6 +3,8 @@ a RESTful API with user authentication, role-based access control, and secure AP
 ### vercel deployed link :
 https://role-based-rest-api-using-node-js.vercel.app/
 
+[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/30927476-275fe245-9209-47dc-a8a7-97bc507a7527?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D30927476-275fe245-9209-47dc-a8a7-97bc507a7527%26entityType%3Dcollection%26workspaceId%3D0a8857f3-5a89-495a-92ed-42e38d852ccc)
+
 ## Geting started 
 ### npm install
 to install all dependencies
