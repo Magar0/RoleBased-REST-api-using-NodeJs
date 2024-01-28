@@ -26,7 +26,7 @@ To obtain a JWT, make a POST request to the '/api/login' or '/api/signup' endpoi
 
 | Endpoint | Method | URL Path | Request Body | Response Format | Authentication |
 |---|---|---|---|---|---|
-| Signup | POST | /api/signup | { "name": "string", "phone": "string", "email": "string" // Optional, either phone or email is required, "password": "string", "role": "string", // Optional, defaults to "user" "profileImage": "string" // Optional } | JSON (user details and authentication token) | No |
+| Signup | POST | /api/signup | { "name": "string", "phone": "string", "email": "string" // Optional, either phone or email is required, "password": "string", "role": "string", // Optional, 'admin'/'user' defaults to "user" "profileImage": "string" // Optional } | JSON (user details and authentication token) | No |
 | Login | POST | /api/login | { "phone": "string", "email": "string", // Optional, either phone or email is required "password": "string" } | JSON (user details and authentication token) | No |
 | Get User Own Details | GET | /api/user | none | JSON ( user details) | Yes |
 | Modify User Details | PATCH | /api/user | { "name": "string", // Optional "profileImage": "string" // Optional } | JSON (updated user details) | Yes |
